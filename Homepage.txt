@@ -1,9 +1,0 @@
-Please follow these steps for FingerPrint Module
-
-Step 1: Unit should be in shutdown state.
-Step 2: Press the power button and press the 'esc' key repeatedly.
-Step 3: Once you are in the Boot menu, Press F2 to enter UEFI.
-Step 4: Select COMPONENT TEST and select Fingerprint.
-Step 5: Select and quick test.
-
-Please follow the above steps. Once completed, please share an image of the test result.
