@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TROUBLESHOOTING STEPS</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: pink;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    /* Button 62 styling for all buttons */
+    .button-62 {
+      background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+      border: 0;
+      border-radius: 12px;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: block;
+      font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 2.5;
+      outline: transparent;
+      padding: 10px 1rem;
+      text-align: center;
+      text-decoration: none;
+      transition: box-shadow 0.2s ease-in-out;
+      user-select: none;
+      margin: 10px auto;
+      width: 90%;
+      max-width: 600px;
+    }
+
+    .button-62:not([disabled]):hover,
+    .button-62:not([disabled]):focus {
+      box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5),
+                  -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5),
+                  .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+    }
+
+  </style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home Icon Redirect</title>
+  <style>
+    .home-logo {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+      transition: box-shadow 0.3s ease;
+    }
+
+    .home-logo:hover {
+      box-shadow: 0 0 10px 3px orange; /* Light orange glow on hover */
+    }
+  </style>
+</head>
+<body>
+
+  <a href="Homepage.html" title="Go to Homepage">
+    <img 
+      src="https://cdn-icons-png.flaticon.com/512/25/25694.png" 
+      alt="Home" 
+      class="home-logo" 
+    />
+  </a>
+
+  <h1>PROBING QUESTIONS</h1>
+<br>
+<br>
+
+  <div class="button-62" onclick="copyToClipboard('May I know since when are you facing this issue?')">
+    1. May I know since when are you facing this issue?
+  </div>
+
+  <div class="button-62" onclick="copyToClipboard('Did the laptop run out of battery or did it randomly shutdown and did not power on again?')">
+    2. Did the laptop run out of battery or did it randomly shutdown and did not power on again?
+  </div>
+
+  <div class="button-62" onclick="copyToClipboard('Do the lights on the keyboard light up and is there any fan noise heard when powered on?')">
+    3. Do the lights on the keyboard light up and is there any fan noise heard when powered on?
+  </div>
+
+  <div class="button-62" onclick="copyToClipboard('Please confirm if the led next to the charging port is lit when connected to the charger that was shipped with the unit?')">
+    4. LED indicator on charging port
+  </div>
+
+  <div class="button-62" onclick="copyToClipboard('Please confirm if you have used a different working charger and the issue still remains the same.')">
+    5. Tried different charger?
+  </div>
+
+  <div class="button-62" onclick="copyToClipboard('Please confirm if the issue occurred after any windows or driver update?')">
+    6. After driver or Windows update?
+  </div>
+
+  <div class="button-62" onclick="copyToClipboard('Please confirm if there are any damages on the display?')">
+    7. Any damages on the display?
+  </div>
+
+  <div class="button-62" onclick="copyToClipboard('Does the light on the Caps lock blink when pressed?')">
+    8. Caps lock light blinking?
+  </div>
+
+  <div class="button-62" onclick="copyToClipboard('Please connect the laptop to an external display such as monitor or TV and check to see if the issue is observed there as well?')">
+    9. Check external display
+  </div>
+
+  <div class="button-62" onclick="copyToClipboard('Please boot the laptop into BIOS mode and check to see if the issue is observed there as well?')">
+    10. Check in BIOS
+  </div>
+
+  <div class="button-62" onclick="copyToClipboard('Please do share an image of the CT number on the Adapter as we would need to have it validated, before proceeding further?')">
+    11. Share Adapter CT number
+  </div>
+
+  <div class="button-62" onclick="copyToClipboard('Press windows and R together, in the pop-up please type and search for msinfo32 please do share an image of the screen that comes up')">
+    12. Get BIOS version (msinfo32)
+  </div>
+
+  <!-- Optional plain text (not styled as buttons) -->
+  <p>1. May I know since when are you facing this issue?</p>
+  <p>2. May I know if there were any hardware changes or software updates made to the unit?</p>
+  <p>3. May I know if there are any physical damages or liquid spillage happened on the unit?</p>
+
+  <script>
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text).then(function () {
+        alert("Copied to clipboard.");
+      }, function (err) {
+        console.error('Could not copy text: ', err);
+      });
+    }
+  </script>
+
+</body>
+</html>
