@@ -431,7 +431,34 @@ Step 6: Check if the Wifi is working properly after the restart.`)">
             7.10 WI-FI</div>
     </div>
 
-    <button class="button-62" onclick="toggleDropdown('windowsReset')">10. Windows reset</button>
+    <button class="button-62"
+        onclick="copyToClipboard(`Open HP Support Assistant:
+
+- Press Windows and type HP Support Assistant, then open the app.
+
+- Check for Updates:
+  1. On the My Dashboard tab, find your device and click Updates.
+     (if no updates are seen please select the refresh icon on the top and see for updates.)
+  2. Click Check for updates and messages.
+
+- Install Updates:
+  1. Review the available updates (drivers, BIOS, etc.).
+  2. Select the ones you need and click Install.
+
+- Restart:
+  If prompted, restart your PC to complete the installation.`)">8. HPSA updates</button>
+
+    <button class="button-62"
+        onclick="copyToClipboard(`Please perform the below steps to perform pending windows updates.
+
+* Open Settings on your computer.
+* Navigate to Update & Security.
+* Select Windows Update from the left-hand menu.
+* Click on Check for updates and install all available updates.
+* Once the updates are installed, restart your computer to complete the process.
+`)">9. Windows updates</button>
+
+  <button class="button-62" onclick="toggleDropdown('windowsReset')">10. Windows reset</button>
     <div id="windowsReset" class="substeps">
         <div class="substep"
             onclick="copyToClipboard(`Please follow the below steps to reset the Windows.
@@ -515,11 +542,6 @@ Please let me know once the above steps are completed.`)"
     11.3 Media Creation Tool- 2
 </div>
 
-        <div class="substep"
-            onclick="copyToClipboard(`OS Re-installation using HP Cloud Recovery Client:\n- Download client from https://ftp.hp.com/pub/softpaq/sp156001-156500/sp156169.exe\n- Follow instructions to reimage unit.`)">
-            11.3 HP Recovery Tool</div>
-    </div>
-
 <button class="button-62" onclick="toggleDropdown('osReinstallation1')">12. Cloud Recovery</button>
     <div id="osReinstallation1" class="substeps">
         <div class="substep"
@@ -533,37 +555,9 @@ https://support.hp.com/us-en/document/ish_4511095-4511141-16 `)">
 For Commercial PC: Kindly follow the steps as per below link
 https://support.hp.com/us-en/document/ish_4374279-4216685-16`)"
 >
-    11.2 COMMERCIAL
+    12.2 COMMERCIAL
 </div>
 </div>
-
-    <button class="button-62"
-        onclick="copyToClipboard(`Open HP Support Assistant:
-
-- Press Windows and type HP Support Assistant, then open the app.
-
-- Check for Updates:
-  1. On the My Dashboard tab, find your device and click Updates.
-     (if no updates are seen please select the refresh icon on the top and see for updates.)
-  2. Click Check for updates and messages.
-
-- Install Updates:
-  1. Review the available updates (drivers, BIOS, etc.).
-  2. Select the ones you need and click Install.
-
-- Restart:
-  If prompted, restart your PC to complete the installation.`)">8. HPSA updates</button>
-
-    <button class="button-62"
-        onclick="copyToClipboard(`Please perform the below steps to perform pending windows updates.
-
-* Open Settings on your computer.
-* Navigate to Update & Security.
-* Select Windows Update from the left-hand menu.
-* Click on Check for updates and install all available updates.
-* Once the updates are installed, restart your computer to complete the process.
-`)">9. Windows updates</button>
-
     <button class="button-62"
         onclick="copyToClipboard(`Battery calibration:\nRefer to https://www.youtube.com/watch?v=OBJxM5HQFs0 for steps.`)">13. Battery calibration</button>
 
